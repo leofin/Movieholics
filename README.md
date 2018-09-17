@@ -1,6 +1,20 @@
 # Movieholics
 App to see the list of Upcoming movies from TMDb.
 
+# Build instructions
+This code was coded on Android Studio 3.1.4, and testing on LG k220(Android 6.0.1, API 23)
+Configuration of tarket SDK Version:
+```
+compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.fin.leo.movieholics"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+```
 # APP issues & Improvements
 - Without internet the list will be empty, missing a "empty" message, don't has a refresh button, but click in next will made another request to fill the list.
 - To resolve this problem, in future will be implemented a localstore on SQLite to save datas from requests and show the list from DB either.
