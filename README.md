@@ -18,6 +18,7 @@ The entities within the TMDb folder are used for the translation of the JSONs to
 # Libs
 - 'com.google.code.gson:gson:2.8.5' - Lib to manipulate JSON's Object from API's.
 - 'com.squareup.picasso:picasso:2.71828' - Lib to download, present and cache remote images by url.
+- 'java.net.HttpURLConnection' - Lib used to made get requests from APIs  
 
 # Problems
 - Performance issues with VS2017 with Xamarin.
