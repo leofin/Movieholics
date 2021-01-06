@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Movieholics</string>
+    <string name="button_upcoming">Upcoming Movies</string>
+    <string name="details_title">Title:</string>
+    <string name="details_page_title">Movie Details</string>
+    <string name="menu">Menu</string>
+    <string name="overview_label">Overview:</string>
+    <string name="release_date_label">Release Date:</string>
+    <string name="gender_label">Gender:</string>
+</resources>
